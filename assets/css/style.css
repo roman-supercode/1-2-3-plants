@@ -1,0 +1,168 @@
+/* ====================================
+        General Styles
+======================================*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Open Sans'; */
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Fredericka the Great';
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+/* ====================================
+        Header Styles
+======================================*/
+header,
+main,
+footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header,
+footer {
+    color: white;
+}
+
+header section a,
+header nav ul li a,
+main section p a,
+footer a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(50, 50, 62);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: right;
+    /* margin: 20px 150px 0 0; */
+}
+
+header nav ul li a {
+    display: block;
+    color: white;
+    margin: 10px;
+}
+
+header nav {
+    margin: 0 100px 0 0;
+}
+
+.a__logo,
+header section h1,
+main section h2 {
+    font-family: 'Fredericka the Great';
+}
+
+header section h1 {
+    font-size: 34px;
+    padding: 10px;
+}
+
+.section__welcome {
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.section__plants section p {
+    margin: 10px 0 20px 0;
+}
+
+.section__plants {
+    height: 100vh;
+    background-image: url("../img/Lev3_2_css-einführung_box-model_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.a__logo {
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin: 15px 100px;
+}
+
+.a__buttons {
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+
+.a__buttons:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Mainbereich */
+.section__decoration {
+    width: 500px;
+    text-align: center;
+    margin: 50px auto 100px;
+}
+
+.section__decoration h2 {
+    font-size: 26px;
+}
+
+.section__decoration p {
+    margin: 20px 0;
+}
+
+main section h2 {
+    margin-bottom: 30px;
+}
+
+.p__contact {
+    display: inline-block;
+    border: 4px double black;
+    padding: 15px 40px;
+}
+
+.p__contact a {
+    display: inline-block;
+    color: black;
+    margin-top: 20px;
+}
+
+/* Footerbereich */
+.section__store {
+    width: 720px;
+    padding: 25px 20px;
+}
+
+.section__store p {
+    margin-bottom: 20px;
+}
+
+.section__footer {
+    text-align: right;
+    padding: 10px;
+}
+
+.section__footer a {
+    margin: 0 10px;
+    color: white;
+    font-size: 14px;
+}
+
+/* hover unterstrich effekt */
+.section__footer a:hover,
+.p__contact a:hover,
+header nav ul li a:hover {
+    text-decoration: underline;
+}
